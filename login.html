@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyStudentProfile.com</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	  
+  </head>
+  <body>
+<div class="header">
+			<div class="container">
+			<div class="jumbotron text-center">
+            <h1>MyStudent Profile</h1>
+            <p>Look at your grades, anytime, anywhere.</p> 
+             </div>
+			</div>
+		    </div>
+			<nav class="navbar navbar-default">
+                   <div class="container-fluid">
+                    <div class="navbar-header">
+                     <a class="navbar-brand" href="#">MyStudentProfile</a>
+                    </div>
+            <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home">
+					  </span> Home</a></li>
+					<li><a href="search.php"><span class="glyphicon glyphicon-search">
+					  </span> Search Student</a></li>
+            </ul>
+			<ul class="nav navbar-nav navbar-right">
+			
+                      <li class="active"><a href="login.html"><span class="glyphicon glyphicon-user">
+					  </span> Admin Access</a></li>
+            </ul>
+                    </div>
+            </nav>
+			</div>
+			<div class="container">
+			<div class="col-sm-4"></div>
+			  <div class="col-sm-4">
+				<div class="well">
+					<h1 align="center">Admin Access</h1>
+					<p align="center">Login to get access on database.</p>
+					<hr>
+  <form action="admin/login.php" method="post">
+  <div class="form-group">
+    <label>Username:</label>
+    <input type="textarea" name="username" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label>Password:</label>
+    <input type="password" name="password" class="form-control" required>
+  </div>
+  <p align="center"><button type="submit" class="btn-lg btn-primary">Submit</button></p>
+   </form>
+ 
+   </div>
+   <br><hr>
+				</div>
+			</div>
+			</div>
+			<div class="col-sm-4"></div>
+		<div class="footer">
+			<div class="container">
+			</div>
+		</div>
+	</body>
+</html>
